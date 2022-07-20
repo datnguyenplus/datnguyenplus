@@ -1,0 +1,12 @@
+{
+  "name": "base",
+  "version": "1.0.0",
+  "description": "Core source CMS Nodejs.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["adonisjs", "node","base"],
+  "author": "nguyentandat43@gmail.com",
+  "license": "ISC"
+}

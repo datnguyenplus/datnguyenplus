@@ -1,0 +1,10 @@
+FW : https://adonisjs.com/docs/4.1/installation
+
+MONGODB DOWNLOAD: https://fastdl.mongodb.org/win32/mongodb-win32-x86_64-2008plus-ssl-4.0.10-signed.msi
+
+ADONIS CLI : 
+npm i -g @adonisjs/cli
+
+
+TOOL QUAN LY MONGODB : https://nosqlbooster.com/downloads
+DOCS MONGODB : https://docs.mongodb.com/manual/reference/method/db.collection.aggregate/#db-collection-aggregate

@@ -1,0 +1,6 @@
+{
+	"name": "lab",
+  	"lab-icb": "1.0",
+  	"description": "Lab Icarebase.",
+  	"main": "index.js",
+  }

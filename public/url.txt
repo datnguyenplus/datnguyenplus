@@ -1,0 +1,81 @@
+https://www.blockcypher.com/dev/ethereum/#generate-address-endpoint
+
+https://www.blockcypher.com/dev/ethereum/#creating-transactions
+
+https://www.blockcypher.com/dev/ethereum/#txskeleton
+
+blockcypher_token=6e52cdfdf10f4705a67890cf10641d50
+
+Windows : https://golang.org/doc/install?download=go1.12.5.windows-amd64.msi
+
+./signer cbea8f9b05ee27f83f8c5df5f3b36a5907e38384ffe291ac6701a586dc702f17 cbea8f9b05ee27f83f8c5df5f3b36a5907e38384ffe291ac6701a586dc702f17
+
+
+{
+    "tx": {
+        "block_height": -1,
+        "block_index": 0,
+        "hash": "fee1a01e1147cff57192c6ad09ab4002466876e58346fa4b1d3f9669eb30191c",
+        "addresses": [
+            "89173cd980cac42f39d1e439d1757b2016d62c41"
+        ],
+        "total": 10000000000000000,
+        "fees": 315000000000000,
+        "size": 44,
+        "gas_limit": 21000,
+        "gas_price": 15000000000,
+        "received": "2019-06-06T06:16:29.976528771Z",
+        "ver": 0,
+        "double_spend": false,
+        "vin_sz": 1,
+        "vout_sz": 1,
+        "inputs": [
+            {
+                "sequence": 2,
+                "addresses": [
+                    "89173cd980cac42f39d1e439d1757b2016d62c41"
+                ]
+            }
+        ],
+        "outputs": [
+            {
+                "value": 10000000000000000,
+                "addresses": [
+                    "3aad0b13e5b786f8c275ec81fa782718a0bb74e5"
+                ]
+            }
+        ]
+    },
+    "tosign": [
+        "0717692e62a0b4084589a003b835860d79956c60f3ac2bce02b1dcc26d4b4fc1"
+    ],
+    "signatures": ["30450221008e1b81079664b75ae6e154122811125125c29f6d56a710750fdca48a8af66c5602207dbd1bb0abc634093342ac013a9ccf5d2b08e83b90c7b603872527732d50c57c"]
+}
+
+
+{
+    "private": "4816f053a91ff3e4c59f8d16fe517631dda5454a442725023acadf1d25831eb9",
+    "public":  "041f41116683c137f132b81613a49ef4dd1d27d23e25be41d22691166d3ba85779a80d2625bae8a23d39a162ffc9cdb6c33b4bd7e97c6f2f2a18eb74c4697f7b62",
+    "address": "5c2d2336654ad4a771b9007e71f30e6cca001518"
+}
+
+
+ADMIN : {
+  "private": "d17601e3a4906895eeab1f4a802b7b5678595a68e7fd15960de5d6ab3d87fb10"
+  "public":  "04844192dfb36fc127de9de1a33d5b8e8643d8e7408701a26285567bdcf6cb30befff76970c0d1784912718e593be63307bf7a294b092da35e16b7ed6405eaf9dd"
+  "address": "3aad0b13e5b786f8c275ec81fa782718a0bb74e5"
+}
+
+
+
+USER : {
+    "private" : "97375854b0f0f9a179cec44cc0cf4296d2d152a458f638d2586a75be155660ec"
+    "address" : "0x89173cD980cac42f39d1E439D1757b2016d62C41"
+}
+
+USER nguyentandat43@gmail.com : {
+    "private" : "d17601e3a4906895eeab1f4a802b7b5678595a68e7fd15960de5d6ab3d87fb10"
+    "address" : "0x3aad0b13e5b786f8c275ec81fa782718a0bb74e5"
+}
+
+https://www.xdguru.com/free-xd-ui-kits/page/4/

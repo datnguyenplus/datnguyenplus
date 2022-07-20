@@ -1,0 +1,17 @@
+/* SEND MAIL */
+    let constTemplateId = use("TemplateId").TEMPLATE_CUSTOMER_ACTIVE_ACCOUNT;
+    const ModelSendGird = await use("ModelSendGird").findSlugTemplate(
+      constTemplateId
+    );
+    var userData = {
+      //email reciever
+      toEmail: customer.getEmailAttribute(),
+      //email tamplate id
+      templateId: ModelSendGird.template_id,
+      //email data
+      drawData: {
+        full_name: customer.getFullNameAttribute(),
+        token: token,
+        CUSTOMER_LINK_ACTIVE_ACCOUNT: Env.get("CUSTOMER_LINK_ACTIVE_ACCOUNT")
+      }
+    };

@@ -1,0 +1,6 @@
+{
+	"name": "docker",
+  	"product-icb": "1.0",
+  	"description": "Docker Icarebase.",
+  	"main": "index.js",
+  }
